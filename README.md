@@ -1,3 +1,6 @@
+
+[![travis build](https://travis-ci.org/KULeuven-Diepenbeek/sessylibrary.svg?branch=master)](https://travis-ci.org/KULeuven-Diepenbeek/sessylibrary)
+
 1.1 De Calculator app
 -----------------------
 Ontwerp een command-line interface programma, getiteld ‘calculator’, 
