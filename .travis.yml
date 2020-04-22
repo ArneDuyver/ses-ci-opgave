@@ -10,11 +10,12 @@ env:
 notifications:
   email: false
 
-before_install:
-  - ./gradlew assemble
+#before_install:
+  #- gradle assemble
 
 install:
-  - ./gradlew test # Run testen
+  - gradle assemble
+  - ./gradlew check # Run testen
   - cd $CALCULATOR_PATH
   - javac Calculator.java # Compile
   - java -cp Calculator 1 4 # Run
