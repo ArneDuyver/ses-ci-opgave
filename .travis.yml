@@ -6,8 +6,8 @@ jdk:
 notifications:
   email: false
 
-install:
-- ./gradlew assemble
+before_install:
+ - chmod +x gradlew
 
 script:
   - ./gradlew check # Run testen
