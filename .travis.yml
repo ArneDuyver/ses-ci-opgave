@@ -7,7 +7,7 @@ notifications:
   email: false
 
 before_install:
- - chmod +x gradlew
+ - chmod +x gradlew #BELANGRIJK ANDERS WERKT HET NIET omdat hij de gradle wrapper niet als .exe beschouwd of zoiets
 
 script:
   - ./gradlew check # Run testen
