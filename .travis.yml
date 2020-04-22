@@ -6,7 +6,7 @@ jdk:
 notifications:
   email: false
 
-install:
+script:
   - ./gradlew check # Run testen
   - cd ./src/main/java
   - javac Calculator.java # Compile
