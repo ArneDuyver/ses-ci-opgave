@@ -3,18 +3,11 @@ language: java
 jdk:
   - openjdk13
 
-env:
-#  - NODE_VERSION="12.10.0"
-  - CALCULATOR_PATH="./src/main/java"
-
 notifications:
   email: false
 
-before_install:
-  - gradle assemble
-
 install:
   - ./gradlew check # Run testen
-  - cd $CALCULATOR_PATH
+  - cd ./src/main/java
   - javac Calculator.java # Compile
   - java -cp Calculator 1 4 # Run
