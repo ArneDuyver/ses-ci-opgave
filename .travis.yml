@@ -6,6 +6,9 @@ jdk:
 notifications:
   email: false
 
+install:
+- ./gradlew assemble
+
 script:
   - ./gradlew check # Run testen
   - cd ./src/main/java
