@@ -11,6 +11,5 @@ before_install:
 
 script:
   - ./gradlew check # Run testen
-  - cd ./src/main/java
-  - javac Calculator.java # Compile
-  - java -cp Calculator 1 4 # Run
+  - ./src/main/java/Calculator.java # Compile
+  - java -cp ./src/main/java/ Calculator 1 4 # Run
