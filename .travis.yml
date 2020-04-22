@@ -10,8 +10,8 @@ env:
 notifications:
   email: false
 
-#before_install:
-#  - nvm install $NODE_VERSION # Verwijst naar hierboven
+before_install:
+  - ./gradlew assemble
 
 install:
   - ./gradlew test # Run testen
