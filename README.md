@@ -1,5 +1,8 @@
 
+<<<<<<< HEAD
 [![travis build](https://travis-ci.org/github/ArneDuyver/ses-ci-opgave.svg?branch=master)](https://travis-ci.org/github/ArneDuyver/ses-ci-opgave)
+=======
+>>>>>>> f830e41e29b56f8f4b31292c838c1bb82863fa71
 
 1.1 De Calculator app
 -----------------------
