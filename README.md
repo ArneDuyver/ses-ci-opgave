@@ -1,5 +1,5 @@
 
-[![travis build](https://travis-ci.org/KULeuven-Diepenbeek/sessylibrary.svg?branch=master)](https://travis-ci.org/KULeuven-Diepenbeek/sessylibrary)
+[![travis build](https://travis-ci.org/github/ArneDuyver/ses-ci-opgave.svg?branch=master)](https://travis-ci.org/github/ArneDuyver/ses-ci-opgave)
 
 1.1 De Calculator app
 -----------------------
